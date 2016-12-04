@@ -1,6 +1,6 @@
 # SwiftyNotificationCenter
 
-[![CI Status](http://img.shields.io/travis/Vladislav Maltsev/SwiftyNotificationCenter.svg?style=flat)](https://travis-ci.org/Vladislav Maltsev/SwiftyNotificationCenter)
+[![CI Status](http://img.shields.io/travis/Shedward/SwiftyNotificationCenter.svg?style=flat)](https://travis-ci.org/Shedward/SwiftyNotificationCenter)
 [![Version](https://img.shields.io/cocoapods/v/SwiftyNotificationCenter.svg?style=flat)](http://cocoapods.org/pods/SwiftyNotificationCenter)
 [![License](https://img.shields.io/cocoapods/l/SwiftyNotificationCenter.svg?style=flat)](http://cocoapods.org/pods/SwiftyNotificationCenter)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyNotificationCenter.svg?style=flat)](http://cocoapods.org/pods/SwiftyNotificationCenter)
