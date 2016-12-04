@@ -22,7 +22,7 @@ pod "SwiftyNotificationCenter"
 
 ## Author
 
-Vladislav Maltsev, malcev@azoft.com
+Vladislav Maltsev, shedwardx@gmail.com
 
 ## License
 
