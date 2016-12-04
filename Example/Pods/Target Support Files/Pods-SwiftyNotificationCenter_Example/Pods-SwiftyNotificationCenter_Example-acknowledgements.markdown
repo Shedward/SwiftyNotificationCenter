@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## SwiftyNotificationCenter
 
-Copyright (c) 2016 Vladislav Maltsev <malcev@azoft.com>
+Copyright (c) 2016 Vladislav Maltsev <shedwardx@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

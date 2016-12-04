@@ -1,22 +1,27 @@
 {
   "name": "SwiftyNotificationCenter",
   "version": "0.1.0",
-  "summary": "A short description of SwiftyNotificationCenter.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SwiftyNotificationCenter",
+  "summary": "Typesafe wrapper for Notifications",
+  "homepage": "https://github.com/Shedward/SwiftyNotificationCenter",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Vladislav Maltsev": "malcev@azoft.com"
+    "Vladislav Maltsev": "shedwardx@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SwiftyNotificationCenter.git",
+    "git": "https://github.com/Shedward/SwiftyNotificationCenter.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "osx": "10.9",
+    "ios": "8.0",
+    "watchos": "2.0",
+    "tvos": "9.0"
   },
-  "source_files": "SwiftyNotificationCenter/Classes/**/*"
+  "source_files": "SwiftyNotificationCenter/Classes/**/*",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3.0"
+  }
 }
