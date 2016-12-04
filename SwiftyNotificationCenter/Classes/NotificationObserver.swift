@@ -50,7 +50,7 @@ public class NotificationObserver<EventType: ObservableEvent> {
     public func disposeWith(object: Any) {
         let associatedObject = objc_getAssociatedObject(object, &SwiftyNotificationDisposeBagKey)
         
-        var disposeBag = associatedObject as? NSMutableArray ?? NSMutableArray()
+        let disposeBag = associatedObject as? NSMutableArray ?? NSMutableArray()
         disposeBag.add(self)
         
         objc_setAssociatedObject(object, &SwiftyNotificationDisposeBagKey, disposeBag, .OBJC_ASSOCIATION_RETAIN)

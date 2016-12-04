@@ -38,6 +38,6 @@ internal class TargetNotificationObserver<EventType: ObservableEvent>: Notificat
     }
     
     internal override func process(event: EventType) {
-        target?.perform(selector, with: event)
+        _ = target?.perform(selector, with: event)
     }
 }
